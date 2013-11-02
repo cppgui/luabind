@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="lua_5_2_2" InternalType="Library">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00010001N0005Debug000000000000]]>
+    </Plugin>
+  </Plugins>
+  <File Name="./../../lua-5_2_2/lapi.c"/>
+  <File Name="./../../lua-5_2_2/lapi.h"/>
+  <File Name="./../../lua-5_2_2/lauxlib.c"/>
+  <File Name="./../../lua-5_2_2/lauxlib.h"/>
+  <File Name="./../../lua-5_2_2/lbaselib.c"/>
+  <File Name="./../../lua-5_2_2/lbitlib.c"/>
+  <File Name="./../../lua-5_2_2/lcode.c"/>
+  <File Name="./../../lua-5_2_2/lcode.h"/>
+  <File Name="./../../lua-5_2_2/lcorolib.c"/>
+  <File Name="./../../lua-5_2_2/lctype.c"/>
+  <File Name="./../../lua-5_2_2/lctype.h"/>
+  <File Name="./../../lua-5_2_2/ldblib.c"/>
+  <File Name="./../../lua-5_2_2/ldebug.c"/>
+  <File Name="./../../lua-5_2_2/ldebug.h"/>
+  <File Name="./../../lua-5_2_2/ldo.c"/>
+  <File Name="./../../lua-5_2_2/ldo.h"/>
+  <File Name="./../../lua-5_2_2/ldump.c"/>
+  <File Name="./../../lua-5_2_2/lfunc.c"/>
+  <File Name="./../../lua-5_2_2/lfunc.h"/>
+  <File Name="./../../lua-5_2_2/lgc.c"/>
+  <File Name="./../../lua-5_2_2/lgc.h"/>
+  <File Name="./../../lua-5_2_2/linit.c"/>
+  <File Name="./../../lua-5_2_2/liolib.c"/>
+  <File Name="./../../lua-5_2_2/llex.c"/>
+  <File Name="./../../lua-5_2_2/llex.h"/>
+  <File Name="./../../lua-5_2_2/llimits.h"/>
+  <File Name="./../../lua-5_2_2/lmathlib.c"/>
+  <File Name="./../../lua-5_2_2/lmem.c"/>
+  <File Name="./../../lua-5_2_2/lmem.h"/>
+  <File Name="./../../lua-5_2_2/loadlib.c"/>
+  <File Name="./../../lua-5_2_2/lobject.c"/>
+  <File Name="./../../lua-5_2_2/lobject.h"/>
+  <File Name="./../../lua-5_2_2/lopcodes.c"/>
+  <File Name="./../../lua-5_2_2/lopcodes.h"/>
+  <File Name="./../../lua-5_2_2/loslib.c"/>
+  <File Name="./../../lua-5_2_2/lparser.c"/>
+  <File Name="./../../lua-5_2_2/lparser.h"/>
+  <File Name="./../../lua-5_2_2/lstate.c"/>
+  <File Name="./../../lua-5_2_2/lstate.h"/>
+  <File Name="./../../lua-5_2_2/lstring.c"/>
+  <File Name="./../../lua-5_2_2/lstring.h"/>
+  <File Name="./../../lua-5_2_2/lstrlib.c"/>
+  <File Name="./../../lua-5_2_2/ltable.c"/>
+  <File Name="./../../lua-5_2_2/ltable.h"/>
+  <File Name="./../../lua-5_2_2/ltablib.c"/>
+  <File Name="./../../lua-5_2_2/ltm.c"/>
+  <File Name="./../../lua-5_2_2/ltm.h"/>
+  <File Name="./../../lua-5_2_2/lua.h"/>
+  <File Name="./../../lua-5_2_2/lua.hpp"/>
+  <File Name="./../../lua-5_2_2/luaconf.h"/>
+  <File Name="./../../lua-5_2_2/lualib.h"/>
+  <File Name="./../../lua-5_2_2/lundump.c"/>
+  <File Name="./../../lua-5_2_2/lundump.h"/>
+  <File Name="./../../lua-5_2_2/lvm.c"/>
+  <File Name="./../../lua-5_2_2/lvm.h"/>
+  <File Name="./../../lua-5_2_2/lzio.c"/>
+  <File Name="./../../lua-5_2_2/lzio.h"/>
+  <Description/>
+  <Dependencies/>
+  <Dependencies Name="Debug"/>
+  <Dependencies Name="Release"/>
+  <Settings Type="Static Library">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-Wall;-O0" C_Options="-g;-Wall;-O0" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <Preprocessor Value="_DEBUG"/>
+        <Preprocessor Value="LUA_COMPAT_ALL"/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="./../../debug/libluad.a" IntermediateDirectory="./../../debug/liblua" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="" PauseExecWhenProcTerminates="no"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-Wall;-O2" C_Options="-Wall;-O2" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <Preprocessor Value="NDEBUG"/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="./../../lib/liblua.a" IntermediateDirectory="./../../release/liblua" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="" PauseExecWhenProcTerminates="no"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="luabind" Database="">
+  <Project Name="luabind" Path="luabind.project" Active="No"/>
+  <Project Name="lua_5_2_2" Path="lua_5_2_2.project" Active="No"/>
+  <Project Name="hello_world" Path="hello_world.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="lua_5_2_2" ConfigName="Debug"/>
+      <Project Name="luabind" ConfigName="Debug"/>
+      <Project Name="hello_world" ConfigName="Debug"/>
+      <Project Name="lua_5_2_2" ConfigName="Debug"/>
+      <Project Name="hello_world" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="lua_5_2_2" ConfigName="Release"/>
+      <Project Name="luabind" ConfigName="Release"/>
+      <Project Name="hello_world" ConfigName="Release"/>
+      <Project Name="lua_5_2_2" ConfigName="Release"/>
+      <Project Name="hello_world" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

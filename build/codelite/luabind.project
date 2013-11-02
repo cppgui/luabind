@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="luabind" InternalType="Library">
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="src">
+    <File Name="./../../src/class.cpp"/>
+    <File Name="./../../src/class_info.cpp"/>
+    <File Name="./../../src/class_registry.cpp"/>
+    <File Name="./../../src/class_rep.cpp"/>
+    <File Name="./../../src/create_class.cpp"/>
+    <File Name="./../../src/error.cpp"/>
+    <File Name="./../../src/exception_handler.cpp"/>
+    <File Name="./../../src/function.cpp"/>
+    <File Name="./../../src/inheritance.cpp"/>
+    <File Name="./../../src/link_compatibility.cpp"/>
+    <File Name="./../../src/object_rep.cpp"/>
+    <File Name="./../../src/open.cpp"/>
+    <File Name="./../../src/pcall.cpp"/>
+    <File Name="./../../src/scope.cpp"/>
+    <File Name="./../../src/stack_content_by_name.cpp"/>
+    <File Name="./../../src/weak_ref.cpp"/>
+    <File Name="./../../src/wrapper_base.cpp"/>
+  </VirtualDirectory>
+  <Dependencies Name="Debug"/>
+  <Dependencies Name="Release"/>
+  <VirtualDirectory Name="luabind">
+    <File Name="./../../include/luabind/adopt_policy.hpp"/>
+    <File Name="./../../include/luabind/back_reference.hpp"/>
+    <File Name="./../../include/luabind/back_reference_fwd.hpp"/>
+    <File Name="./../../include/luabind/class.hpp"/>
+    <File Name="./../../include/luabind/class_info.hpp"/>
+    <File Name="./../../include/luabind/config.hpp"/>
+    <File Name="./../../include/luabind/container_policy.hpp"/>
+    <File Name="./../../include/luabind/copy_policy.hpp"/>
+    <File Name="./../../include/luabind/dependency_policy.hpp"/>
+    <File Name="./../../include/luabind/discard_result_policy.hpp"/>
+    <File Name="./../../include/luabind/error.hpp"/>
+    <File Name="./../../include/luabind/exception_handler.hpp"/>
+    <File Name="./../../include/luabind/from_stack.hpp"/>
+    <File Name="./../../include/luabind/function.hpp"/>
+    <File Name="./../../include/luabind/get_main_thread.hpp"/>
+    <File Name="./../../include/luabind/get_pointer.hpp"/>
+    <File Name="./../../include/luabind/handle.hpp"/>
+    <File Name="./../../include/luabind/iterator_policy.hpp"/>
+    <File Name="./../../include/luabind/luabind.hpp"/>
+    <File Name="./../../include/luabind/lua_include.hpp"/>
+    <File Name="./../../include/luabind/make_function.hpp"/>
+    <File Name="./../../include/luabind/nil.hpp"/>
+    <File Name="./../../include/luabind/no_dependency.hpp"/>
+    <File Name="./../../include/luabind/object.hpp"/>
+    <File Name="./../../include/luabind/open.hpp"/>
+    <File Name="./../../include/luabind/operator.hpp"/>
+    <File Name="./../../include/luabind/out_value_policy.hpp"/>
+    <File Name="./../../include/luabind/prefix.hpp"/>
+    <File Name="./../../include/luabind/raw_policy.hpp"/>
+    <File Name="./../../include/luabind/return_reference_to_policy.hpp"/>
+    <File Name="./../../include/luabind/scope.hpp"/>
+    <File Name="./../../include/luabind/shared_ptr_converter.hpp"/>
+    <File Name="./../../include/luabind/tag_function.hpp"/>
+    <File Name="./../../include/luabind/typeid.hpp"/>
+    <File Name="./../../include/luabind/value_wrapper.hpp"/>
+    <File Name="./../../include/luabind/version.hpp"/>
+    <File Name="./../../include/luabind/weak_ref.hpp"/>
+    <File Name="./../../include/luabind/wrapper_base.hpp"/>
+    <File Name="./../../include/luabind/yield_policy.hpp"/>
+    <VirtualDirectory Name="detail">
+      <File Name="./../../include/luabind/detail/call.hpp"/>
+      <File Name="./../../include/luabind/detail/call_function.hpp"/>
+      <File Name="./../../include/luabind/detail/call_member.hpp"/>
+      <File Name="./../../include/luabind/detail/call_operator_iterate.hpp"/>
+      <File Name="./../../include/luabind/detail/class_registry.hpp"/>
+      <File Name="./../../include/luabind/detail/class_rep.hpp"/>
+      <File Name="./../../include/luabind/detail/constructor.hpp"/>
+      <File Name="./../../include/luabind/detail/conversion_storage.hpp"/>
+      <File Name="./../../include/luabind/detail/convert_to_lua.hpp"/>
+      <File Name="./../../include/luabind/detail/debug.hpp"/>
+      <File Name="./../../include/luabind/detail/decorate_type.hpp"/>
+      <File Name="./../../include/luabind/detail/deduce_signature.hpp"/>
+      <File Name="./../../include/luabind/detail/enum_maker.hpp"/>
+      <File Name="./../../include/luabind/detail/format_signature.hpp"/>
+      <File Name="./../../include/luabind/detail/garbage_collector.hpp"/>
+      <File Name="./../../include/luabind/detail/has_get_pointer.hpp"/>
+      <File Name="./../../include/luabind/detail/inheritance.hpp"/>
+      <File Name="./../../include/luabind/detail/instance_holder.hpp"/>
+      <File Name="./../../include/luabind/detail/link_compatibility.hpp"/>
+      <File Name="./../../include/luabind/detail/make_instance.hpp"/>
+      <File Name="./../../include/luabind/detail/most_derived.hpp"/>
+      <File Name="./../../include/luabind/detail/object_call.hpp"/>
+      <File Name="./../../include/luabind/detail/object_rep.hpp"/>
+      <File Name="./../../include/luabind/detail/open.hpp"/>
+      <File Name="./../../include/luabind/detail/operator_id.hpp"/>
+      <File Name="./../../include/luabind/detail/other.hpp"/>
+      <File Name="./../../include/luabind/detail/pcall.hpp"/>
+      <File Name="./../../include/luabind/detail/pointee_sizeof.hpp"/>
+      <File Name="./../../include/luabind/detail/pointee_typeid.hpp"/>
+      <File Name="./../../include/luabind/detail/policy.hpp"/>
+      <File Name="./../../include/luabind/detail/primitives.hpp"/>
+      <File Name="./../../include/luabind/detail/property.hpp"/>
+      <File Name="./../../include/luabind/detail/ref.hpp"/>
+      <File Name="./../../include/luabind/detail/signature_match.hpp"/>
+      <File Name="./../../include/luabind/detail/stack_utils.hpp"/>
+      <File Name="./../../include/luabind/detail/typetraits.hpp"/>
+      <File Name="./../../include/luabind/detail/yes_no.hpp"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Settings Type="Static Library">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g" C_Options="-g" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="./../../../boost"/>
+        <IncludePath Value="./../../lua-5_2_2"/>
+        <IncludePath Value="./../../include"/>
+        <Preprocessor Value="_DEBUG"/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <Library Value="./../../lib/libluad.a"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="./../../lib/libluabindd.a" IntermediateDirectory="./../../debug/obj/libluabind" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="" PauseExecWhenProcTerminates="no"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="" C_Options="" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="./../../../boost"/>
+        <IncludePath Value="./../../lua-5_2_2"/>
+        <IncludePath Value="./../../include"/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <Library Value="./../../lib/liblua.a"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="./../../lib/libluabind.a" IntermediateDirectory="./../../release/obj/luabind" Command="./libluabind.a" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="./../../lib" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>
