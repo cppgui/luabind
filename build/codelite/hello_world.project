@@ -70,7 +70,11 @@
         <IncludePath Value="./../../include"/>
         <Preprocessor Value="NDEBUG"/>
       </Compiler>
-      <Linker Options="" Required="yes"/>
+      <Linker Options="" Required="yes">
+        <LibraryPath Value="./../../lib"/>
+        <Library Value="lua"/>
+        <Library Value="luabind"/>
+      </Linker>
       <ResourceCompiler Options="" Required="no"/>
       <General OutputFile="./../../release/hello_world.so" IntermediateDirectory="./../../release/hello_world" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="" PauseExecWhenProcTerminates="no"/>
       <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
